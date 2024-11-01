@@ -9,7 +9,7 @@ header.classList = 'flex-container'
 const logoDiv = document.createElement('div')
 logoDiv.classList.add('header_logo')
 const logoImg = document.createElement('img')
-logoImg.src = './assets/logopinteres-1.png'
+logoImg.src = 'assets/logopinteres-1.png'
 
 logoDiv.appendChild(logoImg)
 header.appendChild(logoDiv)
@@ -29,11 +29,11 @@ input.id = 'buscador'
 input.type = 'text'
 input.placeholder = '🔎 buscar'
 user.id = 'usuario'
-user.src = './assets/usuario.png'
+user.src = 'assets/usuario.png'
 mensajes.id = 'mensajes'
-mensajes.src = './assets/Comment.png'
+mensajes.src = 'assets/Comment.png'
 notificaciones.id = 'notificaciones'
-notificaciones.src = './assets/bell.png'
+notificaciones.src = 'assets/bell.png'
 header.appendChild(input)
 header.appendChild(formulario)
 header.appendChild(notificaciones)
